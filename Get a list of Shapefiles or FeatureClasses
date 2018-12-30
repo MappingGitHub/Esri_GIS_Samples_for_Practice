@@ -1,0 +1,6 @@
+>>> import arcpy
+>>> # Set workspace environment to a folder  
+>>> arcpy.env.workspace = "C:\Users\Admin\Desktop\England" 
+>>> # A list of shapefiles  
+>>> arcpy.ListFeatureClasses()
+[u'Rivers.shp', u'Parks.shp', u'Caves.shp', u'Woods.shp']
