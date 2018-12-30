@@ -1,0 +1,4 @@
+# Adding a shapeFile in ArcMap via Python
+>>> import arcpy
+# Luxembourg is our shapefile name
+>>> arcpy.MakeFeatureLayer_management('C:/Users\Admin\Desktop\Luxembourg\Luxembourg.shp','Luxembourg')
